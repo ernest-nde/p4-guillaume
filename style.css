@@ -826,13 +826,13 @@ h4 {
     border-color: #364577!important;
 }
 .contact-info{
-     height: 4  0px;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-line-height: 35px;
-margin: 20px 0px;
+     height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 35px;
+    margin: 20px 0px;
 
 }
 
@@ -847,6 +847,7 @@ margin: 20px 0px;
 .bg-banniere {
     background-image: url("img/agence-la-panthere-2560w.webp");
 }
+
 @media screen and (max-width: 1919px) {
   .bg-banniere {
     background-image: url("img/agence-la-panthere-1920w.webp");
@@ -906,18 +907,6 @@ margin: 20px 0px;
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
-
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
-
 @media (max-width: 991px) {
     .container {
         width: 100%;
@@ -942,8 +931,6 @@ margin: 20px 0px;
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
